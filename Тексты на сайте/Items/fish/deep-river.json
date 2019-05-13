@@ -1,0 +1,41 @@
+[
+    {
+        "id": 4000,
+        "label": "Сом",
+        "description": "Усатый - полосатый. ",
+        "group": "deep-river",
+        "rare": 0,
+        "minWeight": 1,
+        "maxWeight": 5,
+        "kLenght": 0.5,
+        "length": 0,
+        "weight": 0,
+        "priceK": 1
+    },
+    {
+        "id": 4001,
+        "label": "Речной прядильщик",
+        "description": "Из водорослей делает какие-то странные штуки.",
+        "group": "deep-river",
+        "rare": 1,
+        "minWeight": 0.5,
+        "maxWeight": 2,
+        "kLenght": 1,
+        "length": 0,
+        "weight": 0,
+        "priceK": 1
+    },
+    {
+        "id": 4002,
+        "label": "Донный ракушечник",
+        "description": "Сидит в ракушке и щёлкает клешнями.",
+        "group": "deep-river",
+        "rare": 2,
+        "minWeight": 0.1,
+        "maxWeight": 1,
+        "kLenght": 1,
+        "length": 0,
+        "weight": 0,
+        "priceK": 1
+    }
+]

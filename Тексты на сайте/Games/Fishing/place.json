@@ -1,0 +1,430 @@
+[
+  {
+    "id": 1,
+    "label": "Канализационный сток",
+    "description": "Старый сток нечистот от фабрики по производству гоблинских интимных штучек и бомб.",
+    "require": 0,
+    "groups": [
+      "toxic"
+    ],
+    "fails": {
+      "reset": {
+        "limit": 10,
+        "chance": 10
+      },
+      "lose": {
+        "limit": 25,
+        "chance": 5
+      },
+      "arrest": {
+        "limit": 30,
+        "chance": 1
+      },
+      "exit": {
+        "limit": 30,
+        "chance": 2
+      }
+    },
+    "chances": {
+      "fishNormal": 50,
+      "fishRare": 5,
+      "fishUnique": 0.001,
+      "artifact": 0
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 15,
+      "k": 0.001
+    },
+    "priceK": 0.1
+  },
+  {
+    "id": 2,
+    "label": "Речка-гавнотечка",
+    "description": "Очень подозрительно мутная вода зелёного цвеета. НО даже тут уже встречается вполне себе съедобная(?) рыба.",
+    "require": 0,
+    "license":true,
+    "groups": [
+      "shallow-river",
+      "marsh",
+      "toxic"
+    ],
+    "chances": {
+      "fishNormal": 75,
+      "fishRare": 25,
+      "fishUnique": 1,
+      "artifact": 0.05
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 0,
+      "k": 0.002
+    },
+    "priceK": 0.25
+  },
+  {
+    "id": 3,
+    "label": "Болото",
+    "description": "Обычное болото с лягушками, пиявками, мутантами и токсичными отходами. Ничего необычного.",
+    "require": 10,
+    "groups": [
+      "marsh",
+      "toxic"
+    ],
+    "chances": {
+      "fishNormal": 55,
+      "fishRare": 5,
+      "fishUnique": 0.01,
+      "artifact": 0
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 20,
+      "k": 0.003
+    },
+    "priceK": 0.5
+  },
+  {
+    "id": 4,
+    "label": "Мелководный ручей",
+    "description": "Ручеёк глубиной по колено. Вода холодная, но вроде бы чистая, но купаться я бы не советовал. Хотя с такой глубиной разве только ноги помыть. Но и этого я бы не советовал делать.",
+    "require": 20,
+    "groups": [
+      "shallow-river"
+    ],
+    "chances": {
+      "fishNormal": 70,
+      "fishRare": 10,
+      "fishUnique": 0.01,
+      "artifact": 0
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 20,
+      "k": 0.004
+    },
+    "priceK": 0.75
+  },
+  {
+    "id": 5,
+    "label": "Место-под-мостом-реки",
+    "description": "Хорошее рыбное место. Тут происходит слияние горного ручейка 'Туманный ручей' и огромной реки 'Блестящая'",
+    "require": 30,
+    "license":true,
+    "groups": [
+      "shallow-river",
+      "deep-river"
+    ],
+    "chances": {
+      "fishNormal": 70,
+      "fishRare": 15,
+      "fishUnique": 0.1,
+      "artifact": 0.005
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.005
+    },
+    "priceK": 0.9
+  },
+  {
+    "id": 6,
+    "label": "Пепельное озеро",
+    "description": "Озеро, в которое впадает река 'Бесконечная'. Образовалось после извержения вулкана 'Демонический Хребет'",
+    "require": 40,
+    "license":true,
+    "groups": [
+      "deep-river",
+      "like"
+    ],
+    "chances": {
+      "fishNormal": 70,
+      "fishRare": 15,
+      "fishUnique": 0.5,
+      "artifact": 0.01
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.006
+    },
+    "priceK": 1
+  },
+  {
+    "id": 7,
+    "label": "Древнее озеро",
+    "description": "Озеро настолько старое, что поговаривают о том, что там живут уникальные особи своего вида ещё со времён правления ФелГоба I.",
+    "require": 85,
+    "license":true,
+    "groups": [
+      "like"
+    ],
+    "chances": {
+      "fishNormal": 30,
+      "fishRare": 25,
+      "fishUnique": 5,
+      "artifact": 0.1
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.007
+    },
+    "priceK": 1
+  },
+  {
+    "id": 8,
+    "label": "Побережье поющих китов",
+    "description": "Хотя это еще то удовольствие слушать как поют киты.",
+    "require": 50,
+    "license":true,
+    "groups": [
+      "marine-coastal"
+    ],
+    "chances": {
+      "fishNormal": 60,
+      "fishRare": 15,
+      "fishUnique": 1,
+      "artifact": 0.01
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.008
+    },
+    "priceK": 1
+  },
+  {
+    "id": 9,
+    "label": "Остров фей",
+    "description": "Нет, на самом деле фей тут давно нет. А вот название осталось. Хотя если встретишь фею, то советую бежать от туда со всех ног.",
+    "require": 55,
+    "license":true,
+    "groups": [
+      "toxic",
+      "marine-coastal",
+      "deep-sea"
+    ],
+    "chances": {
+      "fishNormal": 60,
+      "fishRare": 15,
+      "fishUnique": 1,
+      "artifact": 0.01
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.009
+    },
+    "priceK": 1
+  },
+  {
+    "id": 9,
+    "label": "Таинственная расщелина",
+    "description": "Ещё никто не знает какая тут на самом деле глубина. Да и желающих особо нет. Поговаривают по ночам тут слышны голоса русалок.",
+    "require": 60,
+    "license":true,
+    "groups": [
+      "deep-sea"
+    ],
+    "chances": {
+      "fishNormal": 60,
+      "fishRare": 15,
+      "fishUnique": 1,
+      "artifact": 0.1
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.01
+    },
+    "priceK": 1
+  },
+  {
+    "id": 10,
+    "label": "Пролив имени Гоблина-Первооткрывателя",
+    "description": "Открытый океан. Неподготовленному туда плыть очень опасно.",
+    "require": 70,
+    "license":true,
+    "groups": [
+      "deep-sea",
+      "ocean"
+    ],
+    "chances": {
+      "fishNormal": 60,
+      "fishRare": 15,
+      "fishUnique": 1,
+      "artifact": 0.1
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.011
+    },
+    "priceK": 1
+  },
+  {
+    "id": 11,
+    "label": "Фелмурдский треугольник",
+    "description": "Очень странное место в океане. Здесть все превращается в гоблинские вещи. Вот и сейчас твой кошелёк превратился в мой.",
+    "require": 65,
+    "license":true,
+    "groups": [
+      "deep-sea",
+      "ocean",
+      "deep-ocean"
+    ],
+    "chances": {
+      "fishNormal": 60,
+      "fishRare": 15,
+      "fishUnique": 1,
+      "artifact": 0.1
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.012
+    },
+    "priceK": 1
+  },
+  {
+    "id": 12,
+    "label": "Подземное Озеро маны",
+    "description": "Это то самое место, где корпорация 'Фляги Маны на каждый день' разливают свою бадягу для магов.",
+    "require": 70,
+    "license":true,
+    "groups": [
+      "toxic",
+      "magic"
+    ],
+    "chances": {
+      "fishNormal": 60,
+      "fishRare": 15,
+      "fishUnique": 1,
+      "artifact": 0.1
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.013
+    },
+    "priceK": 1
+  },
+  {
+    "id": 13,
+    "label": "Магический источник",
+    "description": "Возник из ниоткуда. Серьёзно, никто не знает когда он тут появился. Да особо как-то никто не интересовался.",
+    "require": 80,
+    "license":true,
+    "groups": [
+      "toxic",
+      "magic",
+      "ether"
+    ],
+    "chances": {
+      "fishNormal": 60,
+      "fishRare": 15,
+      "fishUnique": 1,
+      "artifact": 0.1
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.014
+    },
+    "priceK": 1
+  },
+  {
+    "id": 13,
+    "label": "Река смерти",
+    "description": "Вроде как по этой самой реке перевозят души умерших в дешепереработчик в качестве топлива",
+    "require": 85,
+    "license":true,
+    "groups": [
+      "toxic",
+      "otherworldly"
+    ],
+    "chances": {
+      "fishNormal": 60,
+      "fishRare": 15,
+      "fishUnique": 1,
+      "artifact": 0.1
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.015
+    },
+    "priceK": 1
+  },
+  {
+    "id": 13,
+    "label": "Портал в другое измерение",
+    "description": "Остался после побега мага-педофила 'Лолийопа' Никто не знает от кого он бежал и куда. И вообще никому небыло до него дела, кроме детёнышей дракона Лоли.",
+    "require": 90,
+    "license":true,
+    "groups": [
+      "toxic",
+      "anotherworldly"
+    ],
+    "chances": {
+      "fishNormal": 60,
+      "fishRare": 15,
+      "fishUnique": 1,
+      "artifact": 0.5
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.016
+    },
+    "priceK": 1
+  },
+  {
+    "id": 14,
+    "label": "Божественный источник",
+    "description": "Злые языки говорят, что это место сброса канализации небесной канцелярии.",
+    "require": 100,
+    "license":true,
+    "groups": [
+      "divine"
+    ],
+    "chances": {
+      "fishNormal": 60,
+      "fishRare": 15,
+      "fishUnique": 1,
+      "artifact": 1
+    },
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.018
+    },
+    "priceK": 1
+  },
+  {
+    "id": 666,
+    "label": "Чудовищная гавань",
+    "description": "Место не отмеченное на карте, в котором водятся чудовища.",
+    "require": 100,
+    "license":true,
+    "groups": [
+      "monster",
+      "deep-ocean"
+    ],
+    "chances": {
+      "fishNormal": 75,
+      "fishRare": 25,
+      "fishUnique": 5,
+      "artifact": 0.005
+    },
+
+    "fellizium": {
+      "access": true,
+      "limit": 25,
+      "k": 0.02
+    },
+    "priceK": 1
+  }
+]

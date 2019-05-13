@@ -1,0 +1,41 @@
+[
+    {
+        "id": 9000,
+        "label": "Первая [Глубоководно-океаническая] рыба",
+        "description": "Автосгенерированная [Глубоководно-океаническая] рыба",
+        "group": "deep-ocean",
+        "rare": 0,
+        "minWeight": 0.001,
+        "maxWeight": 0.10000000000000001,
+        "kLenght": 0.01,
+        "length": 0,
+        "weight": 0,
+        "priceK": 0.01
+    },
+    {
+        "id": 9001,
+        "label": "Целакант",
+        "description": "Да, тот самый. Да, древнее динозавров....",
+        "group": "deep-ocean",
+        "rare": 1,
+        "minWeight": 50,
+        "maxWeight": 90,
+        "kLenght": 0.021000000000000001,
+        "length": 0,
+        "weight": 0,
+        "priceK": 0.01
+    },
+    {
+        "id": 9002,
+        "label": "Глубоководный удильщик",
+        "description": "Ээээт его разнесло-то",
+        "group": "deep-ocean",
+        "rare": 1,
+        "minWeight": 0.01,
+        "maxWeight": 15,
+        "kLenght": 0.059999999999999998,
+        "length": 0,
+        "weight": 0,
+        "priceK": 0.01
+    }
+]

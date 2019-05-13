@@ -1,0 +1,72 @@
+[
+  {
+    "id": 100,
+    "name": "ItemAdventureRadar",
+    "group": "GameAdventure",
+    "label": "Искатель сокровищ",
+    "description": "Удивительная штука, которая пришла в наш мир из параллельной вселенной. Вроде как она показывает количество сокровищ. Когда не барахлит конечно. А барахлит она постоянно.",
+    "rare": 3,
+    "canLottery": true,
+    "canFind": true,
+    "canShop": true,
+    "spellID": "DoAdventureExtStatShowTresureCount",
+    "priceK": 0.5,
+    "maxStack": 1
+  },
+  {
+    "id": 101,
+    "name": "ItemAdventureProRadar",
+    "group": "GameAdventure",
+    "label": "Легендарный искатель сокровищ",
+    "description": "Говорят с помощью этой штуки можно найти артефакты. Врут наверное, иначе её бы тут не было.",
+    "rare": 4,
+    "canLottery": true,
+    "canFind": true,
+    "canShop": true,
+    "spellID": "DoAdventureShowGreatTresure",
+    "priceK": 1,
+    "maxStack": 1
+  },
+  {
+    "id": 102,
+    "name": "ItemAdventureDepthGauge",
+    "group": "GameAdventure",
+    "label": "Глубинометр",
+    "description": "Идеально подходит для спелеологов. Не знаю почему они с этой штукой таскаются, наверное она очень ценная.",
+    "rare": 4,
+    "canLottery": true,
+    "canFind": true,
+    "canShop": true,
+    "spellID": "DoAdventureExtStatShowDepth",
+    "priceK": 1,
+    "maxStack": 1
+  },
+  {
+    "id": 103,
+    "name": "ItemAdventureShowChanceLevel",
+    "group": "GameAdventure",
+    "label": "План эвакуации",
+    "description": "Показывает все входы и выходы, но на практике абсолютно бесполезна.",
+    "rare": 3,
+    "canLottery": true,
+    "canFind": true,
+    "canShop": true,
+    "spellID": "DoAdventureExtStatChanceNextLevel",
+    "priceK": 0.25,
+    "maxStack": 1
+  },
+  {
+    "id": 104,
+    "name": "ItemAdventurePickAxe",
+    "group": "GameAdventure",
+    "label": "Чудо-кирка",
+    "description": "Как говорится: не можешь найти - сделай. Берёшь эту штуку и копаешь.",
+    "rare": 4,
+    "canLottery": true,
+    "canFind": true,
+    "canShop": false,
+    "spellID": "DoAdventureFindNextLevel",
+    "priceK": 1,
+    "maxStack": 1
+  }
+]

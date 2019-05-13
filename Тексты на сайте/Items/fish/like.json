@@ -1,0 +1,41 @@
+[
+    {
+        "id": 5000,
+        "label": "Форель",
+        "description": "Прекрасная форель. Источник вдохновения многих поваров всей планеты.",
+        "group": "like",
+        "rare": 0,
+        "minWeight": 0.5,
+        "maxWeight": 3,
+        "kLenght": 0.1,
+        "length": 0,
+        "weight": 0,
+        "priceK": 1
+    },
+    {
+        "id": 5001,
+        "label": "Зеркальная форель",
+        "description": "Глядя в её чешую, можно увидеть своё отражение.",
+        "group": "like",
+        "rare": 1,
+        "minWeight": 0.5,
+        "maxWeight": 3,
+        "kLenght": 1,
+        "length": 0,
+        "weight": 0,
+        "priceK": 1
+    },
+    {
+        "id": 5002,
+        "label": "Форель по имени Фёдор",
+        "description": "Самая умная и хитрая форель в округе. Умеет обходить ловушки и приманки.",
+        "group": "like",
+        "rare": 2,
+        "minWeight": 1,
+        "maxWeight": 5,
+        "kLenght": 1,
+        "length": 0,
+        "weight": 0,
+        "priceK": 1
+    }
+]

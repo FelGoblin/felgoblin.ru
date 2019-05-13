@@ -1,0 +1,16 @@
+[
+  {
+    "id": 600,
+    "name": "ItemExtraWork",
+    "group": "GameWorkShop",
+    "label": "Допинг",
+    "description": "Говорят с этой штукой можно работаь круглосуточно. Я не знаю кому это надо, но желающие находятся.",
+    "rare": 4,
+    "canLottery": true,
+    "canFind": true,
+    "canShop": true,
+    "spellID": "DoExtraWork",
+    "priceK": 0.5,
+    "maxStack": 1
+  }
+]

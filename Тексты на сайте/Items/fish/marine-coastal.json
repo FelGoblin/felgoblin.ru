@@ -1,0 +1,41 @@
+[
+    {
+        "id": 6000,
+        "label": "Камбала",
+        "description": "Плоская, как твои шутки о твоей бывшей.",
+        "group": "marine-coastal",
+        "rare": 0,
+        "minWeight": 0.3,
+        "maxWeight": 3,
+        "kLenght": 0.1,
+        "length": 0,
+        "weight": 0,
+        "priceK": 1
+    },
+    {
+        "id": 6001,
+        "label": "Лучепёрый окунь",
+        "description": "Однако у него есть острые зубы.",
+        "group": "marine-coastal",
+        "rare": 1,
+        "minWeight": 0.2,
+        "maxWeight": 2,
+        "kLenght": 0.5,
+        "length": 0,
+        "weight": 0,
+        "priceK": 1
+    },
+    {
+        "id": 6002,
+        "label": "Угрюмая зубатка",
+        "description": "Похожа на старую собаку. Угрюмую и недовольную старую собаку.",
+        "group": "marine-coastal",
+        "rare": 2,
+        "minWeight": 0.75,
+        "maxWeight": 5,
+        "kLenght": 0.4,
+        "length": 0,
+        "weight": 0,
+        "priceK": 0.01
+    }
+]

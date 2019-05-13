@@ -1,0 +1,13 @@
+[
+    {
+        "id": 12000,
+        "group": "otherworldly",
+        "label": "Первая [Потустороняя] рыба",
+        "description": "Автосгенерированная [Потустороняя] рыба",
+        "priceK": 0.01,
+        "rare": 0,
+        "minWeight": 0.001,
+        "maxeight": 0.5,
+        "kLenght": 0.01
+    }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 700,
+    "name": "ItemLicenseMail",
+    "group": "GameFishing",
+    "label": "Курьерская служба",
+    "description": "Отправить письмо в Центр Лицензирования для продления и увеличения лимита рыболовной лицензии. Не требуется покидать лицензионный участок",
+    "rare": 4,
+    "canLottery": true,
+    "canFind": true,
+    "canShop": true,
+    "spellID": "DoForcedFishLicense",
+    "priceK": 0.5,
+    "maxStack": 1
+  },
+  {
+    "id": 701,
+    "name": "ItemFishingWeighing",
+    "group": "GameFishing",
+    "label": "Определитель веса",
+    "description": "Позволяет определить вес рыбы, попавшийся на крючок до извлечения нё из воды",
+    "rare": 4,
+    "canLottery": true,
+    "canFind": true,
+    "canShop": true,
+    "spellID": "DoFishingWeighing",
+    "priceK": 0.5,
+    "maxStack": 1
+  },
+  {
+    "id": 702,
+    "name": "ItemFishingExtendLicenseLimit",
+    "group": "GameFishing",
+    "label": "ДеЛимитер",
+    "description": "Увеличивает лимиты следующей рыболовной лицензии.",
+    "rare": 3,
+    "canLottery": true,
+    "canFind": true,
+    "canShop": true,
+    "spellID": "DoFishingExtendLicenseLimit",
+    "priceK": 0.5,
+    "maxStack": 1
+  }
+]
