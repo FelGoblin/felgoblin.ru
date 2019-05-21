@@ -21,7 +21,7 @@
     "name": "ItemSteamKey",
     "group": "Templates",
     "label": "Ключ от STEAM игры",
-    "description": "Содержит в себе ключ от игры",
+    "description": "Содержит в себе ключ от игры.",
     "rare": 4,
     "canLottery": true,
     "canFind": false,
